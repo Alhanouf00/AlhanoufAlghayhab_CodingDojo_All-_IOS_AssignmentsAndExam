@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C339A4342704F4D1003B1068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C339A4332704F4D1003B1068 /* AppDelegate.swift */; };
+		C339A4362704F4D1003B1068 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C339A4352704F4D1003B1068 /* SceneDelegate.swift */; };
+		C339A4382704F4D1003B1068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C339A4372704F4D1003B1068 /* ViewController.swift */; };
+		C339A43B2704F4D1003B1068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C339A4392704F4D1003B1068 /* Main.storyboard */; };
+		C339A43D2704F4D2003B1068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C339A43C2704F4D2003B1068 /* Assets.xcassets */; };
+		C339A4402704F4D2003B1068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C339A43E2704F4D2003B1068 /* LaunchScreen.storyboard */; };
+		C339A44B2704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C339A44A2704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests.swift */; };
+		C339A4552704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C339A4542704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests.swift */; };
+		C339A4572704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C339A4562704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C339A4472704F4D2003B1068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C339A4282704F4D1003B1068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C339A42F2704F4D1003B1068;
+			remoteInfo = AlhanoufAlghayhab_ColdCall;
+		};
+		C339A4512704F4D2003B1068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C339A4282704F4D1003B1068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C339A42F2704F4D1003B1068;
+			remoteInfo = AlhanoufAlghayhab_ColdCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C339A4302704F4D1003B1068 /* AlhanoufAlghayhab_ColdCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlhanoufAlghayhab_ColdCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C339A4332704F4D1003B1068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C339A4352704F4D1003B1068 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C339A4372704F4D1003B1068 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C339A43A2704F4D1003B1068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C339A43C2704F4D2003B1068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C339A43F2704F4D2003B1068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C339A4412704F4D2003B1068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C339A4462704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlhanoufAlghayhab_ColdCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C339A44A2704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_ColdCallTests.swift; sourceTree = "<group>"; };
+		C339A4502704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlhanoufAlghayhab_ColdCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C339A4542704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_ColdCallUITests.swift; sourceTree = "<group>"; };
+		C339A4562704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_ColdCallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C339A42D2704F4D1003B1068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C339A4432704F4D2003B1068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C339A44D2704F4D2003B1068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C339A4272704F4D1003B1068 = {
+			isa = PBXGroup;
+			children = (
+				C339A4322704F4D1003B1068 /* AlhanoufAlghayhab_ColdCall */,
+				C339A4492704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests */,
+				C339A4532704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests */,
+				C339A4312704F4D1003B1068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C339A4312704F4D1003B1068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C339A4302704F4D1003B1068 /* AlhanoufAlghayhab_ColdCall.app */,
+				C339A4462704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests.xctest */,
+				C339A4502704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C339A4322704F4D1003B1068 /* AlhanoufAlghayhab_ColdCall */ = {
+			isa = PBXGroup;
+			children = (
+				C339A4332704F4D1003B1068 /* AppDelegate.swift */,
+				C339A4352704F4D1003B1068 /* SceneDelegate.swift */,
+				C339A4372704F4D1003B1068 /* ViewController.swift */,
+				C339A4392704F4D1003B1068 /* Main.storyboard */,
+				C339A43C2704F4D2003B1068 /* Assets.xcassets */,
+				C339A43E2704F4D2003B1068 /* LaunchScreen.storyboard */,
+				C339A4412704F4D2003B1068 /* Info.plist */,
+			);
+			path = AlhanoufAlghayhab_ColdCall;
+			sourceTree = "<group>";
+		};
+		C339A4492704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				C339A44A2704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests.swift */,
+			);
+			path = AlhanoufAlghayhab_ColdCallTests;
+			sourceTree = "<group>";
+		};
+		C339A4532704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C339A4542704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests.swift */,
+				C339A4562704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITestsLaunchTests.swift */,
+			);
+			path = AlhanoufAlghayhab_ColdCallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C339A42F2704F4D1003B1068 /* AlhanoufAlghayhab_ColdCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C339A45A2704F4D2003B1068 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_ColdCall" */;
+			buildPhases = (
+				C339A42C2704F4D1003B1068 /* Sources */,
+				C339A42D2704F4D1003B1068 /* Frameworks */,
+				C339A42E2704F4D1003B1068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlhanoufAlghayhab_ColdCall;
+			productName = AlhanoufAlghayhab_ColdCall;
+			productReference = C339A4302704F4D1003B1068 /* AlhanoufAlghayhab_ColdCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C339A4452704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C339A45D2704F4D2003B1068 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_ColdCallTests" */;
+			buildPhases = (
+				C339A4422704F4D2003B1068 /* Sources */,
+				C339A4432704F4D2003B1068 /* Frameworks */,
+				C339A4442704F4D2003B1068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C339A4482704F4D2003B1068 /* PBXTargetDependency */,
+			);
+			name = AlhanoufAlghayhab_ColdCallTests;
+			productName = AlhanoufAlghayhab_ColdCallTests;
+			productReference = C339A4462704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C339A44F2704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C339A4602704F4D2003B1068 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_ColdCallUITests" */;
+			buildPhases = (
+				C339A44C2704F4D2003B1068 /* Sources */,
+				C339A44D2704F4D2003B1068 /* Frameworks */,
+				C339A44E2704F4D2003B1068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C339A4522704F4D2003B1068 /* PBXTargetDependency */,
+			);
+			name = AlhanoufAlghayhab_ColdCallUITests;
+			productName = AlhanoufAlghayhab_ColdCallUITests;
+			productReference = C339A4502704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C339A4282704F4D1003B1068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C339A42F2704F4D1003B1068 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C339A4452704F4D2003B1068 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C339A42F2704F4D1003B1068;
+					};
+					C339A44F2704F4D2003B1068 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C339A42F2704F4D1003B1068;
+					};
+				};
+			};
+			buildConfigurationList = C339A42B2704F4D1003B1068 /* Build configuration list for PBXProject "AlhanoufAlghayhab_ColdCall" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C339A4272704F4D1003B1068;
+			productRefGroup = C339A4312704F4D1003B1068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C339A42F2704F4D1003B1068 /* AlhanoufAlghayhab_ColdCall */,
+				C339A4452704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests */,
+				C339A44F2704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C339A42E2704F4D1003B1068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C339A4402704F4D2003B1068 /* LaunchScreen.storyboard in Resources */,
+				C339A43D2704F4D2003B1068 /* Assets.xcassets in Resources */,
+				C339A43B2704F4D1003B1068 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C339A4442704F4D2003B1068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C339A44E2704F4D2003B1068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C339A42C2704F4D1003B1068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C339A4382704F4D1003B1068 /* ViewController.swift in Sources */,
+				C339A4342704F4D1003B1068 /* AppDelegate.swift in Sources */,
+				C339A4362704F4D1003B1068 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C339A4422704F4D2003B1068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C339A44B2704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C339A44C2704F4D2003B1068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C339A4572704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITestsLaunchTests.swift in Sources */,
+				C339A4552704F4D2003B1068 /* AlhanoufAlghayhab_ColdCallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C339A4482704F4D2003B1068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C339A42F2704F4D1003B1068 /* AlhanoufAlghayhab_ColdCall */;
+			targetProxy = C339A4472704F4D2003B1068 /* PBXContainerItemProxy */;
+		};
+		C339A4522704F4D2003B1068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C339A42F2704F4D1003B1068 /* AlhanoufAlghayhab_ColdCall */;
+			targetProxy = C339A4512704F4D2003B1068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C339A4392704F4D1003B1068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C339A43A2704F4D1003B1068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C339A43E2704F4D2003B1068 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C339A43F2704F4D2003B1068 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C339A4582704F4D2003B1068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C339A4592704F4D2003B1068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C339A45B2704F4D2003B1068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlhanoufAlghayhab_ColdCall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-ColdCall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C339A45C2704F4D2003B1068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlhanoufAlghayhab_ColdCall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-ColdCall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C339A45E2704F4D2003B1068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-ColdCallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlhanoufAlghayhab_ColdCall.app/AlhanoufAlghayhab_ColdCall";
+			};
+			name = Debug;
+		};
+		C339A45F2704F4D2003B1068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-ColdCallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlhanoufAlghayhab_ColdCall.app/AlhanoufAlghayhab_ColdCall";
+			};
+			name = Release;
+		};
+		C339A4612704F4D2003B1068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-ColdCallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlhanoufAlghayhab_ColdCall;
+			};
+			name = Debug;
+		};
+		C339A4622704F4D2003B1068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-ColdCallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlhanoufAlghayhab_ColdCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C339A42B2704F4D1003B1068 /* Build configuration list for PBXProject "AlhanoufAlghayhab_ColdCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C339A4582704F4D2003B1068 /* Debug */,
+				C339A4592704F4D2003B1068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C339A45A2704F4D2003B1068 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_ColdCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C339A45B2704F4D2003B1068 /* Debug */,
+				C339A45C2704F4D2003B1068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C339A45D2704F4D2003B1068 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_ColdCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C339A45E2704F4D2003B1068 /* Debug */,
+				C339A45F2704F4D2003B1068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C339A4602704F4D2003B1068 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_ColdCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C339A4612704F4D2003B1068 /* Debug */,
+				C339A4622704F4D2003B1068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C339A4282704F4D1003B1068 /* Project object */;
+}

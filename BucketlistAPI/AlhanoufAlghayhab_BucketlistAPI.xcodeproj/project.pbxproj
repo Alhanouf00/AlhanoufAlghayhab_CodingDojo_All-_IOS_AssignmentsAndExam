@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31FE1B327234E2A00FBBFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31FE1B227234E2A00FBBFDD /* AppDelegate.swift */; };
+		C31FE1B527234E2A00FBBFDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31FE1B427234E2A00FBBFDD /* SceneDelegate.swift */; };
+		C31FE1B727234E2A00FBBFDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31FE1B627234E2A00FBBFDD /* ViewController.swift */; };
+		C31FE1BA27234E2A00FBBFDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31FE1B827234E2A00FBBFDD /* Main.storyboard */; };
+		C31FE1BC27234E2B00FBBFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31FE1BB27234E2B00FBBFDD /* Assets.xcassets */; };
+		C31FE1BF27234E2B00FBBFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31FE1BD27234E2B00FBBFDD /* LaunchScreen.storyboard */; };
+		C31FE1CA27234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31FE1C927234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests.swift */; };
+		C31FE1D427234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31FE1D327234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests.swift */; };
+		C31FE1D627234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31FE1D527234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITestsLaunchTests.swift */; };
+		C31FE1E32723532200FBBFDD /* BucketlistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31FE1E22723532200FBBFDD /* BucketlistTableViewController.swift */; };
+		C31FE1E5272353F100FBBFDD /* CustomTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31FE1E4272353F100FBBFDD /* CustomTableDelegate.swift */; };
+		C333F4962723611D002B9C87 /* TasksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333F4952723611D002B9C87 /* TasksModel.swift */; };
+		C333F49B27249B11002B9C87 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C333F49A27249B11002B9C87 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C31FE1C627234E2C00FBBFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C31FE1A727234E2A00FBBFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31FE1AE27234E2A00FBBFDD;
+			remoteInfo = AlhanoufAlghayhab_BucketlistAPI;
+		};
+		C31FE1D027234E2C00FBBFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C31FE1A727234E2A00FBBFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31FE1AE27234E2A00FBBFDD;
+			remoteInfo = AlhanoufAlghayhab_BucketlistAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C31FE1AF27234E2A00FBBFDD /* AlhanoufAlghayhab_BucketlistAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlhanoufAlghayhab_BucketlistAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31FE1B227234E2A00FBBFDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C31FE1B427234E2A00FBBFDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C31FE1B627234E2A00FBBFDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C31FE1B927234E2A00FBBFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C31FE1BB27234E2B00FBBFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C31FE1BE27234E2B00FBBFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C31FE1C027234E2B00FBBFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31FE1C527234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlhanoufAlghayhab_BucketlistAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31FE1C927234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_BucketlistAPITests.swift; sourceTree = "<group>"; };
+		C31FE1CF27234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlhanoufAlghayhab_BucketlistAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31FE1D327234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_BucketlistAPIUITests.swift; sourceTree = "<group>"; };
+		C31FE1D527234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_BucketlistAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C31FE1E22723532200FBBFDD /* BucketlistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketlistTableViewController.swift; sourceTree = "<group>"; };
+		C31FE1E4272353F100FBBFDD /* CustomTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableDelegate.swift; sourceTree = "<group>"; };
+		C333F4952723611D002B9C87 /* TasksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31FE1AC27234E2A00FBBFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C333F49B27249B11002B9C87 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31FE1C227234E2C00FBBFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31FE1CC27234E2C00FBBFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C31FE1A627234E2A00FBBFDD = {
+			isa = PBXGroup;
+			children = (
+				C31FE1B127234E2A00FBBFDD /* AlhanoufAlghayhab_BucketlistAPI */,
+				C31FE1C827234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests */,
+				C31FE1D227234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests */,
+				C31FE1B027234E2A00FBBFDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C31FE1B027234E2A00FBBFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31FE1AF27234E2A00FBBFDD /* AlhanoufAlghayhab_BucketlistAPI.app */,
+				C31FE1C527234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests.xctest */,
+				C31FE1CF27234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31FE1B127234E2A00FBBFDD /* AlhanoufAlghayhab_BucketlistAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C31FE1B227234E2A00FBBFDD /* AppDelegate.swift */,
+				C31FE1B427234E2A00FBBFDD /* SceneDelegate.swift */,
+				C31FE1E4272353F100FBBFDD /* CustomTableDelegate.swift */,
+				C333F4952723611D002B9C87 /* TasksModel.swift */,
+				C31FE1E22723532200FBBFDD /* BucketlistTableViewController.swift */,
+				C31FE1B627234E2A00FBBFDD /* ViewController.swift */,
+				C31FE1B827234E2A00FBBFDD /* Main.storyboard */,
+				C31FE1BB27234E2B00FBBFDD /* Assets.xcassets */,
+				C31FE1BD27234E2B00FBBFDD /* LaunchScreen.storyboard */,
+				C31FE1C027234E2B00FBBFDD /* Info.plist */,
+			);
+			path = AlhanoufAlghayhab_BucketlistAPI;
+			sourceTree = "<group>";
+		};
+		C31FE1C827234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				C31FE1C927234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests.swift */,
+			);
+			path = AlhanoufAlghayhab_BucketlistAPITests;
+			sourceTree = "<group>";
+		};
+		C31FE1D227234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C31FE1D327234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests.swift */,
+				C31FE1D527234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITestsLaunchTests.swift */,
+			);
+			path = AlhanoufAlghayhab_BucketlistAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31FE1AE27234E2A00FBBFDD /* AlhanoufAlghayhab_BucketlistAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31FE1D927234E2C00FBBFDD /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_BucketlistAPI" */;
+			buildPhases = (
+				C31FE1AB27234E2A00FBBFDD /* Sources */,
+				C31FE1AC27234E2A00FBBFDD /* Frameworks */,
+				C31FE1AD27234E2A00FBBFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlhanoufAlghayhab_BucketlistAPI;
+			packageProductDependencies = (
+				C333F49A27249B11002B9C87 /* Alamofire */,
+			);
+			productName = AlhanoufAlghayhab_BucketlistAPI;
+			productReference = C31FE1AF27234E2A00FBBFDD /* AlhanoufAlghayhab_BucketlistAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C31FE1C427234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31FE1DC27234E2C00FBBFDD /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_BucketlistAPITests" */;
+			buildPhases = (
+				C31FE1C127234E2C00FBBFDD /* Sources */,
+				C31FE1C227234E2C00FBBFDD /* Frameworks */,
+				C31FE1C327234E2C00FBBFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31FE1C727234E2C00FBBFDD /* PBXTargetDependency */,
+			);
+			name = AlhanoufAlghayhab_BucketlistAPITests;
+			productName = AlhanoufAlghayhab_BucketlistAPITests;
+			productReference = C31FE1C527234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C31FE1CE27234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31FE1DF27234E2C00FBBFDD /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_BucketlistAPIUITests" */;
+			buildPhases = (
+				C31FE1CB27234E2C00FBBFDD /* Sources */,
+				C31FE1CC27234E2C00FBBFDD /* Frameworks */,
+				C31FE1CD27234E2C00FBBFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31FE1D127234E2C00FBBFDD /* PBXTargetDependency */,
+			);
+			name = AlhanoufAlghayhab_BucketlistAPIUITests;
+			productName = AlhanoufAlghayhab_BucketlistAPIUITests;
+			productReference = C31FE1CF27234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C31FE1A727234E2A00FBBFDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C31FE1AE27234E2A00FBBFDD = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C31FE1C427234E2C00FBBFDD = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C31FE1AE27234E2A00FBBFDD;
+					};
+					C31FE1CE27234E2C00FBBFDD = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C31FE1AE27234E2A00FBBFDD;
+					};
+				};
+			};
+			buildConfigurationList = C31FE1AA27234E2A00FBBFDD /* Build configuration list for PBXProject "AlhanoufAlghayhab_BucketlistAPI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C31FE1A627234E2A00FBBFDD;
+			packageReferences = (
+				C333F49927249B11002B9C87 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = C31FE1B027234E2A00FBBFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31FE1AE27234E2A00FBBFDD /* AlhanoufAlghayhab_BucketlistAPI */,
+				C31FE1C427234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests */,
+				C31FE1CE27234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C31FE1AD27234E2A00FBBFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31FE1BF27234E2B00FBBFDD /* LaunchScreen.storyboard in Resources */,
+				C31FE1BC27234E2B00FBBFDD /* Assets.xcassets in Resources */,
+				C31FE1BA27234E2A00FBBFDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31FE1C327234E2C00FBBFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31FE1CD27234E2C00FBBFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C31FE1AB27234E2A00FBBFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31FE1B727234E2A00FBBFDD /* ViewController.swift in Sources */,
+				C31FE1B327234E2A00FBBFDD /* AppDelegate.swift in Sources */,
+				C333F4962723611D002B9C87 /* TasksModel.swift in Sources */,
+				C31FE1B527234E2A00FBBFDD /* SceneDelegate.swift in Sources */,
+				C31FE1E32723532200FBBFDD /* BucketlistTableViewController.swift in Sources */,
+				C31FE1E5272353F100FBBFDD /* CustomTableDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31FE1C127234E2C00FBBFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31FE1CA27234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31FE1CB27234E2C00FBBFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31FE1D427234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITests.swift in Sources */,
+				C31FE1D627234E2C00FBBFDD /* AlhanoufAlghayhab_BucketlistAPIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C31FE1C727234E2C00FBBFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31FE1AE27234E2A00FBBFDD /* AlhanoufAlghayhab_BucketlistAPI */;
+			targetProxy = C31FE1C627234E2C00FBBFDD /* PBXContainerItemProxy */;
+		};
+		C31FE1D127234E2C00FBBFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31FE1AE27234E2A00FBBFDD /* AlhanoufAlghayhab_BucketlistAPI */;
+			targetProxy = C31FE1D027234E2C00FBBFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C31FE1B827234E2A00FBBFDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31FE1B927234E2A00FBBFDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C31FE1BD27234E2B00FBBFDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31FE1BE27234E2B00FBBFDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C31FE1D727234E2C00FBBFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C31FE1D827234E2C00FBBFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C31FE1DA27234E2C00FBBFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlhanoufAlghayhab_BucketlistAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-BucketlistAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C31FE1DB27234E2C00FBBFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlhanoufAlghayhab_BucketlistAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-BucketlistAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C31FE1DD27234E2C00FBBFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-BucketlistAPITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlhanoufAlghayhab_BucketlistAPI.app/AlhanoufAlghayhab_BucketlistAPI";
+			};
+			name = Debug;
+		};
+		C31FE1DE27234E2C00FBBFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-BucketlistAPITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlhanoufAlghayhab_BucketlistAPI.app/AlhanoufAlghayhab_BucketlistAPI";
+			};
+			name = Release;
+		};
+		C31FE1E027234E2C00FBBFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-BucketlistAPIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlhanoufAlghayhab_BucketlistAPI;
+			};
+			name = Debug;
+		};
+		C31FE1E127234E2C00FBBFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-BucketlistAPIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlhanoufAlghayhab_BucketlistAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C31FE1AA27234E2A00FBBFDD /* Build configuration list for PBXProject "AlhanoufAlghayhab_BucketlistAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31FE1D727234E2C00FBBFDD /* Debug */,
+				C31FE1D827234E2C00FBBFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31FE1D927234E2C00FBBFDD /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_BucketlistAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31FE1DA27234E2C00FBBFDD /* Debug */,
+				C31FE1DB27234E2C00FBBFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31FE1DC27234E2C00FBBFDD /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_BucketlistAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31FE1DD27234E2C00FBBFDD /* Debug */,
+				C31FE1DE27234E2C00FBBFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31FE1DF27234E2C00FBBFDD /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_BucketlistAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31FE1E027234E2C00FBBFDD /* Debug */,
+				C31FE1E127234E2C00FBBFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C333F49927249B11002B9C87 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C333F49A27249B11002B9C87 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C333F49927249B11002B9C87 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C31FE1A727234E2A00FBBFDD /* Project object */;
+}
