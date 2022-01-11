@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		296F0B2696640A75DE150096 /* Pods_AlhanoufAlghayhab_Exam_IOSQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC210A0BFEF1A4399275985B /* Pods_AlhanoufAlghayhab_Exam_IOSQuiz.framework */; };
+		378151277CCF1360F4930D47 /* Pods_AlhanoufAlghayhab_Exam_IOSQuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C920AB7EEE4DFCC48E62F15B /* Pods_AlhanoufAlghayhab_Exam_IOSQuizTests.framework */; };
+		C36BCE1827098DA1007EFBB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCE1727098DA1007EFBB0 /* AppDelegate.swift */; };
+		C36BCE1A27098DA1007EFBB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCE1927098DA1007EFBB0 /* SceneDelegate.swift */; };
+		C36BCE1C27098DA1007EFBB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCE1B27098DA1007EFBB0 /* ViewController.swift */; };
+		C36BCE1F27098DA1007EFBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36BCE1D27098DA1007EFBB0 /* Main.storyboard */; };
+		C36BCE2127098DA2007EFBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36BCE2027098DA2007EFBB0 /* Assets.xcassets */; };
+		C36BCE2427098DA2007EFBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36BCE2227098DA2007EFBB0 /* LaunchScreen.storyboard */; };
+		C36BCE2F27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCE2E27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests.swift */; };
+		C36BCE3927098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCE3827098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests.swift */; };
+		C36BCE3B27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCE3A27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITestsLaunchTests.swift */; };
+		C37A86A627121D1500E35A8B /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37A86A527121D1500E35A8B /* ResultScreen.swift */; };
+		CED539EBED824132501B84AE /* Pods_AlhanoufAlghayhab_Exam_IOSQuiz_AlhanoufAlghayhab_Exam_IOSQuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF876D8831FEEDB82B88C18 /* Pods_AlhanoufAlghayhab_Exam_IOSQuiz_AlhanoufAlghayhab_Exam_IOSQuizUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C36BCE2B27098DA2007EFBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36BCE0C27098DA1007EFBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36BCE1327098DA1007EFBB0;
+			remoteInfo = AlhanoufAlghayhab_Exam_IOSQuiz;
+		};
+		C36BCE3527098DA2007EFBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36BCE0C27098DA1007EFBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36BCE1327098DA1007EFBB0;
+			remoteInfo = AlhanoufAlghayhab_Exam_IOSQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293EE7D6FA7B7D1E836BD398 /* Pods-AlhanoufAlghayhab_Exam_IOSQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlhanoufAlghayhab_Exam_IOSQuizTests.release.xcconfig"; path = "Target Support Files/Pods-AlhanoufAlghayhab_Exam_IOSQuizTests/Pods-AlhanoufAlghayhab_Exam_IOSQuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		5AAA900C389831A1FB216C6A /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlhanoufAlghayhab_Exam_IOSQuiz.debug.xcconfig"; path = "Target Support Files/Pods-AlhanoufAlghayhab_Exam_IOSQuiz/Pods-AlhanoufAlghayhab_Exam_IOSQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF876D8831FEEDB82B88C18 /* Pods_AlhanoufAlghayhab_Exam_IOSQuiz_AlhanoufAlghayhab_Exam_IOSQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlhanoufAlghayhab_Exam_IOSQuiz_AlhanoufAlghayhab_Exam_IOSQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A13DD8F725DB8E01859E620 /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests.release.xcconfig"; path = "Target Support Files/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8FF3C5504397C32D94E2A95B /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests.debug.xcconfig"; path = "Target Support Files/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD6EC21876C5F9BA1FE8BF3A /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlhanoufAlghayhab_Exam_IOSQuiz.release.xcconfig"; path = "Target Support Files/Pods-AlhanoufAlghayhab_Exam_IOSQuiz/Pods-AlhanoufAlghayhab_Exam_IOSQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		C36BCE1427098DA1007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlhanoufAlghayhab_Exam_IOSQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36BCE1727098DA1007EFBB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C36BCE1927098DA1007EFBB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C36BCE1B27098DA1007EFBB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C36BCE1E27098DA1007EFBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C36BCE2027098DA2007EFBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36BCE2327098DA2007EFBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C36BCE2527098DA2007EFBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36BCE2A27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlhanoufAlghayhab_Exam_IOSQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36BCE2E27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_Exam_IOSQuizTests.swift; sourceTree = "<group>"; };
+		C36BCE3427098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlhanoufAlghayhab_Exam_IOSQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36BCE3827098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_Exam_IOSQuizUITests.swift; sourceTree = "<group>"; };
+		C36BCE3A27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_Exam_IOSQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C37A86A527121D1500E35A8B /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+		C920AB7EEE4DFCC48E62F15B /* Pods_AlhanoufAlghayhab_Exam_IOSQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlhanoufAlghayhab_Exam_IOSQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC210A0BFEF1A4399275985B /* Pods_AlhanoufAlghayhab_Exam_IOSQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlhanoufAlghayhab_Exam_IOSQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90A88A6C5B4783402D586DA /* Pods-AlhanoufAlghayhab_Exam_IOSQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlhanoufAlghayhab_Exam_IOSQuizTests.debug.xcconfig"; path = "Target Support Files/Pods-AlhanoufAlghayhab_Exam_IOSQuizTests/Pods-AlhanoufAlghayhab_Exam_IOSQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36BCE1127098DA1007EFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296F0B2696640A75DE150096 /* Pods_AlhanoufAlghayhab_Exam_IOSQuiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCE2727098DA2007EFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378151277CCF1360F4930D47 /* Pods_AlhanoufAlghayhab_Exam_IOSQuizTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCE3127098DA2007EFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED539EBED824132501B84AE /* Pods_AlhanoufAlghayhab_Exam_IOSQuiz_AlhanoufAlghayhab_Exam_IOSQuizUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DF86CB2531FF7E693060155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AAA900C389831A1FB216C6A /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz.debug.xcconfig */,
+				BD6EC21876C5F9BA1FE8BF3A /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz.release.xcconfig */,
+				8FF3C5504397C32D94E2A95B /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests.debug.xcconfig */,
+				8A13DD8F725DB8E01859E620 /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests.release.xcconfig */,
+				E90A88A6C5B4783402D586DA /* Pods-AlhanoufAlghayhab_Exam_IOSQuizTests.debug.xcconfig */,
+				293EE7D6FA7B7D1E836BD398 /* Pods-AlhanoufAlghayhab_Exam_IOSQuizTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C36BCE0B27098DA1007EFBB0 = {
+			isa = PBXGroup;
+			children = (
+				C36BCE1627098DA1007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuiz */,
+				C36BCE2D27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests */,
+				C36BCE3727098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests */,
+				C36BCE1527098DA1007EFBB0 /* Products */,
+				7DF86CB2531FF7E693060155 /* Pods */,
+				DA6EA4128EE644E7B705E03D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C36BCE1527098DA1007EFBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36BCE1427098DA1007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuiz.app */,
+				C36BCE2A27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests.xctest */,
+				C36BCE3427098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36BCE1627098DA1007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				C36BCE1727098DA1007EFBB0 /* AppDelegate.swift */,
+				C36BCE1927098DA1007EFBB0 /* SceneDelegate.swift */,
+				C37A86A527121D1500E35A8B /* ResultScreen.swift */,
+				C36BCE1B27098DA1007EFBB0 /* ViewController.swift */,
+				C36BCE1D27098DA1007EFBB0 /* Main.storyboard */,
+				C36BCE2027098DA2007EFBB0 /* Assets.xcassets */,
+				C36BCE2227098DA2007EFBB0 /* LaunchScreen.storyboard */,
+				C36BCE2527098DA2007EFBB0 /* Info.plist */,
+			);
+			path = AlhanoufAlghayhab_Exam_IOSQuiz;
+			sourceTree = "<group>";
+		};
+		C36BCE2D27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36BCE2E27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests.swift */,
+			);
+			path = AlhanoufAlghayhab_Exam_IOSQuizTests;
+			sourceTree = "<group>";
+		};
+		C36BCE3727098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C36BCE3827098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests.swift */,
+				C36BCE3A27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITestsLaunchTests.swift */,
+			);
+			path = AlhanoufAlghayhab_Exam_IOSQuizUITests;
+			sourceTree = "<group>";
+		};
+		DA6EA4128EE644E7B705E03D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC210A0BFEF1A4399275985B /* Pods_AlhanoufAlghayhab_Exam_IOSQuiz.framework */,
+				6EF876D8831FEEDB82B88C18 /* Pods_AlhanoufAlghayhab_Exam_IOSQuiz_AlhanoufAlghayhab_Exam_IOSQuizUITests.framework */,
+				C920AB7EEE4DFCC48E62F15B /* Pods_AlhanoufAlghayhab_Exam_IOSQuizTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36BCE1327098DA1007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36BCE3E27098DA2007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_Exam_IOSQuiz" */;
+			buildPhases = (
+				F598F2355D2922A243813DB0 /* [CP] Check Pods Manifest.lock */,
+				C36BCE1027098DA1007EFBB0 /* Sources */,
+				C36BCE1127098DA1007EFBB0 /* Frameworks */,
+				C36BCE1227098DA1007EFBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlhanoufAlghayhab_Exam_IOSQuiz;
+			productName = AlhanoufAlghayhab_Exam_IOSQuiz;
+			productReference = C36BCE1427098DA1007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36BCE2927098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36BCE4127098DA2007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_Exam_IOSQuizTests" */;
+			buildPhases = (
+				4F4DA09FF7830617196708A2 /* [CP] Check Pods Manifest.lock */,
+				C36BCE2627098DA2007EFBB0 /* Sources */,
+				C36BCE2727098DA2007EFBB0 /* Frameworks */,
+				C36BCE2827098DA2007EFBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36BCE2C27098DA2007EFBB0 /* PBXTargetDependency */,
+			);
+			name = AlhanoufAlghayhab_Exam_IOSQuizTests;
+			productName = AlhanoufAlghayhab_Exam_IOSQuizTests;
+			productReference = C36BCE2A27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C36BCE3327098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36BCE4427098DA2007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_Exam_IOSQuizUITests" */;
+			buildPhases = (
+				A73F53A3A4E737519D3F4B65 /* [CP] Check Pods Manifest.lock */,
+				C36BCE3027098DA2007EFBB0 /* Sources */,
+				C36BCE3127098DA2007EFBB0 /* Frameworks */,
+				C36BCE3227098DA2007EFBB0 /* Resources */,
+				2EE0F9A941D97D5EBB979F27 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36BCE3627098DA2007EFBB0 /* PBXTargetDependency */,
+			);
+			name = AlhanoufAlghayhab_Exam_IOSQuizUITests;
+			productName = AlhanoufAlghayhab_Exam_IOSQuizUITests;
+			productReference = C36BCE3427098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36BCE0C27098DA1007EFBB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C36BCE1327098DA1007EFBB0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C36BCE2927098DA2007EFBB0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C36BCE1327098DA1007EFBB0;
+					};
+					C36BCE3327098DA2007EFBB0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C36BCE1327098DA1007EFBB0;
+					};
+				};
+			};
+			buildConfigurationList = C36BCE0F27098DA1007EFBB0 /* Build configuration list for PBXProject "AlhanoufAlghayhab_Exam_IOSQuiz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36BCE0B27098DA1007EFBB0;
+			productRefGroup = C36BCE1527098DA1007EFBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36BCE1327098DA1007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuiz */,
+				C36BCE2927098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests */,
+				C36BCE3327098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36BCE1227098DA1007EFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BCE2427098DA2007EFBB0 /* LaunchScreen.storyboard in Resources */,
+				C36BCE2127098DA2007EFBB0 /* Assets.xcassets in Resources */,
+				C36BCE1F27098DA1007EFBB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCE2827098DA2007EFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCE3227098DA2007EFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EE0F9A941D97D5EBB979F27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F4DA09FF7830617196708A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlhanoufAlghayhab_Exam_IOSQuizTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A73F53A3A4E737519D3F4B65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F598F2355D2922A243813DB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlhanoufAlghayhab_Exam_IOSQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36BCE1027098DA1007EFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37A86A627121D1500E35A8B /* ResultScreen.swift in Sources */,
+				C36BCE1C27098DA1007EFBB0 /* ViewController.swift in Sources */,
+				C36BCE1827098DA1007EFBB0 /* AppDelegate.swift in Sources */,
+				C36BCE1A27098DA1007EFBB0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCE2627098DA2007EFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BCE2F27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCE3027098DA2007EFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BCE3B27098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITestsLaunchTests.swift in Sources */,
+				C36BCE3927098DA2007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36BCE2C27098DA2007EFBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36BCE1327098DA1007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuiz */;
+			targetProxy = C36BCE2B27098DA2007EFBB0 /* PBXContainerItemProxy */;
+		};
+		C36BCE3627098DA2007EFBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36BCE1327098DA1007EFBB0 /* AlhanoufAlghayhab_Exam_IOSQuiz */;
+			targetProxy = C36BCE3527098DA2007EFBB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C36BCE1D27098DA1007EFBB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36BCE1E27098DA1007EFBB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C36BCE2227098DA2007EFBB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36BCE2327098DA2007EFBB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36BCE3C27098DA2007EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C36BCE3D27098DA2007EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36BCE3F27098DA2007EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AAA900C389831A1FB216C6A /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlhanoufAlghayhab_Exam_IOSQuiz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-Exam-IOSQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C36BCE4027098DA2007EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6EC21876C5F9BA1FE8BF3A /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlhanoufAlghayhab_Exam_IOSQuiz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-Exam-IOSQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C36BCE4227098DA2007EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90A88A6C5B4783402D586DA /* Pods-AlhanoufAlghayhab_Exam_IOSQuizTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-Exam-IOSQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlhanoufAlghayhab_Exam_IOSQuiz.app/AlhanoufAlghayhab_Exam_IOSQuiz";
+			};
+			name = Debug;
+		};
+		C36BCE4327098DA2007EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293EE7D6FA7B7D1E836BD398 /* Pods-AlhanoufAlghayhab_Exam_IOSQuizTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-Exam-IOSQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlhanoufAlghayhab_Exam_IOSQuiz.app/AlhanoufAlghayhab_Exam_IOSQuiz";
+			};
+			name = Release;
+		};
+		C36BCE4527098DA2007EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF3C5504397C32D94E2A95B /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-Exam-IOSQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlhanoufAlghayhab_Exam_IOSQuiz;
+			};
+			name = Debug;
+		};
+		C36BCE4627098DA2007EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A13DD8F725DB8E01859E620 /* Pods-AlhanoufAlghayhab_Exam_IOSQuiz-AlhanoufAlghayhab_Exam_IOSQuizUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-Exam-IOSQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlhanoufAlghayhab_Exam_IOSQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36BCE0F27098DA1007EFBB0 /* Build configuration list for PBXProject "AlhanoufAlghayhab_Exam_IOSQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36BCE3C27098DA2007EFBB0 /* Debug */,
+				C36BCE3D27098DA2007EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36BCE3E27098DA2007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_Exam_IOSQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36BCE3F27098DA2007EFBB0 /* Debug */,
+				C36BCE4027098DA2007EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36BCE4127098DA2007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_Exam_IOSQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36BCE4227098DA2007EFBB0 /* Debug */,
+				C36BCE4327098DA2007EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36BCE4427098DA2007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_Exam_IOSQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36BCE4527098DA2007EFBB0 /* Debug */,
+				C36BCE4627098DA2007EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36BCE0C27098DA1007EFBB0 /* Project object */;
+}
