@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30A547127296BDF009E0076 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A547027296BDF009E0076 /* LoginViewController.swift */; };
+		C30A547327296BFA009E0076 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A547227296BFA009E0076 /* RegisterViewController.swift */; };
+		C30A547527296C51009E0076 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A547427296C51009E0076 /* NewConversationViewController.swift */; };
+		C30A547727296C87009E0076 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A547627296C87009E0076 /* ProfileViewController.swift */; };
+		C30A547A27298ECB009E0076 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C30A547927298ECB009E0076 /* FirebaseAnalytics */; };
+		C30A547C27298ECB009E0076 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C30A547B27298ECB009E0076 /* FirebaseAuth */; };
+		C30A547E27298ECB009E0076 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C30A547D27298ECB009E0076 /* FirebaseDatabase */; };
+		C30A548027298ECB009E0076 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C30A547F27298ECB009E0076 /* FirebaseFirestore */; };
+		C30A548227298ECB009E0076 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C30A548127298ECB009E0076 /* FirebaseStorage */; };
+		C31E7915272945550042FC30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E7914272945550042FC30 /* AppDelegate.swift */; };
+		C31E7917272945550042FC30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E7916272945550042FC30 /* SceneDelegate.swift */; };
+		C31E7919272945550042FC30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E7918272945550042FC30 /* ViewController.swift */; };
+		C31E791C272945550042FC30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31E791A272945550042FC30 /* Main.storyboard */; };
+		C31E791E272945560042FC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31E791D272945560042FC30 /* Assets.xcassets */; };
+		C31E7921272945560042FC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31E791F272945560042FC30 /* LaunchScreen.storyboard */; };
+		C31E792C272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E792B272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests.swift */; };
+		C31E7936272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E7935272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests.swift */; };
+		C31E7938272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E7937272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITestsLaunchTests.swift */; };
+		C3307163273AFB2900D8CEAE /* client_675182844365-6rtc72mijaviqf8vbrs8nfkioglg0g6q.apps.googleusercontent.com .plist in Resources */ = {isa = PBXBuildFile; fileRef = C3307162273AFB2900D8CEAE /* client_675182844365-6rtc72mijaviqf8vbrs8nfkioglg0g6q.apps.googleusercontent.com .plist */; };
+		C3391F762732EF630080B22D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3391F752732EF620080B22D /* GoogleService-Info.plist */; };
+		C3492AF7272F137D00CB5E45 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3492AF6272F137D00CB5E45 /* MessageKit */; };
+		C3492AFA272F13F900CB5E45 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = C3492AF9272F13F900CB5E45 /* JGProgressHUD */; };
+		C3492AFD272F143200CB5E45 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = C3492AFC272F143200CB5E45 /* Realm */; };
+		C3492AFF272F143200CB5E45 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C3492AFE272F143200CB5E45 /* RealmSwift */; };
+		C3492B02272F145F00CB5E45 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = C3492B01272F145F00CB5E45 /* SDWebImage */; };
+		C3492B04272F145F00CB5E45 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3492B03272F145F00CB5E45 /* SDWebImageMapKit */; };
+		C3492B06272F287900CB5E45 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3492B05272F287900CB5E45 /* ChatViewController.swift */; };
+		C3492B082730178A00CB5E45 /* StorageManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3492B072730178A00CB5E45 /* StorageManage.swift */; };
+		C3492B0B2732678C00CB5E45 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C3492B0A2732678C00CB5E45 /* CryptoSwift */; };
+		C3CDA266272DC5C800204302 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = C3CDA265272DC5C800204302 /* FacebookCore */; };
+		C3CDA268272DC5C800204302 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = C3CDA267272DC5C800204302 /* FacebookLogin */; };
+		C3CDA26A272DC5C800204302 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = C3CDA269272DC5C800204302 /* FacebookShare */; };
+		C3FC99BE272EAA630030BBB3 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC99BD272EAA630030BBB3 /* DatabaseManager.swift */; };
+		C3FC99C1272EBBAC0030BBB3 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C3FC99C0272EBBAC0030BBB3 /* GoogleSignIn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C31E7928272945560042FC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C31E7909272945550042FC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31E7910272945550042FC30;
+			remoteInfo = AlhanoufAlghayhab_MessangerAPP;
+		};
+		C31E7932272945560042FC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C31E7909272945550042FC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31E7910272945550042FC30;
+			remoteInfo = AlhanoufAlghayhab_MessangerAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C30A547027296BDF009E0076 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C30A547227296BFA009E0076 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C30A547427296C51009E0076 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		C30A547627296C87009E0076 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C31E7911272945550042FC30 /* AlhanoufAlghayhab_MessangerAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlhanoufAlghayhab_MessangerAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31E7914272945550042FC30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C31E7916272945550042FC30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C31E7918272945550042FC30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C31E791B272945550042FC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C31E791D272945560042FC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C31E7920272945560042FC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C31E7922272945560042FC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31E7927272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlhanoufAlghayhab_MessangerAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31E792B272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_MessangerAPPTests.swift; sourceTree = "<group>"; };
+		C31E7931272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlhanoufAlghayhab_MessangerAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31E7935272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_MessangerAPPUITests.swift; sourceTree = "<group>"; };
+		C31E7937272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_MessangerAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3307162273AFB2900D8CEAE /* client_675182844365-6rtc72mijaviqf8vbrs8nfkioglg0g6q.apps.googleusercontent.com .plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "client_675182844365-6rtc72mijaviqf8vbrs8nfkioglg0g6q.apps.googleusercontent.com .plist"; sourceTree = SOURCE_ROOT; };
+		C3391F752732EF620080B22D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C3492B05272F287900CB5E45 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C3492B072730178A00CB5E45 /* StorageManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManage.swift; sourceTree = "<group>"; };
+		C3FC99BD272EAA630030BBB3 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31E790E272945550042FC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30A547A27298ECB009E0076 /* FirebaseAnalytics in Frameworks */,
+				C3492B04272F145F00CB5E45 /* SDWebImageMapKit in Frameworks */,
+				C3CDA266272DC5C800204302 /* FacebookCore in Frameworks */,
+				C3492AFA272F13F900CB5E45 /* JGProgressHUD in Frameworks */,
+				C3492AFF272F143200CB5E45 /* RealmSwift in Frameworks */,
+				C3CDA26A272DC5C800204302 /* FacebookShare in Frameworks */,
+				C30A547C27298ECB009E0076 /* FirebaseAuth in Frameworks */,
+				C30A547E27298ECB009E0076 /* FirebaseDatabase in Frameworks */,
+				C3492AFD272F143200CB5E45 /* Realm in Frameworks */,
+				C3492B0B2732678C00CB5E45 /* CryptoSwift in Frameworks */,
+				C30A548027298ECB009E0076 /* FirebaseFirestore in Frameworks */,
+				C3CDA268272DC5C800204302 /* FacebookLogin in Frameworks */,
+				C3492B02272F145F00CB5E45 /* SDWebImage in Frameworks */,
+				C30A548227298ECB009E0076 /* FirebaseStorage in Frameworks */,
+				C3FC99C1272EBBAC0030BBB3 /* GoogleSignIn in Frameworks */,
+				C3492AF7272F137D00CB5E45 /* MessageKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31E7924272945560042FC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31E792E272945560042FC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C31E7908272945550042FC30 = {
+			isa = PBXGroup;
+			children = (
+				C31E7913272945550042FC30 /* AlhanoufAlghayhab_MessangerAPP */,
+				C31E792A272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests */,
+				C31E7934272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests */,
+				C31E7912272945550042FC30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C31E7912272945550042FC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31E7911272945550042FC30 /* AlhanoufAlghayhab_MessangerAPP.app */,
+				C31E7927272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests.xctest */,
+				C31E7931272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31E7913272945550042FC30 /* AlhanoufAlghayhab_MessangerAPP */ = {
+			isa = PBXGroup;
+			children = (
+				C31E794B272966BE0042FC30 /* LoginAndRegistration  */,
+				C31E7947272966040042FC30 /* Resources */,
+				C31E7948272966230042FC30 /* Models */,
+				C31E79492729663B0042FC30 /* Views */,
+				C31E791D272945560042FC30 /* Assets.xcassets */,
+				C31E794A2729664C0042FC30 /* Controllers */,
+				C31E7922272945560042FC30 /* Info.plist */,
+				C3391F752732EF620080B22D /* GoogleService-Info.plist */,
+				C3307162273AFB2900D8CEAE /* client_675182844365-6rtc72mijaviqf8vbrs8nfkioglg0g6q.apps.googleusercontent.com .plist */,
+			);
+			path = AlhanoufAlghayhab_MessangerAPP;
+			sourceTree = "<group>";
+		};
+		C31E792A272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				C31E792B272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests.swift */,
+			);
+			path = AlhanoufAlghayhab_MessangerAPPTests;
+			sourceTree = "<group>";
+		};
+		C31E7934272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C31E7935272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests.swift */,
+				C31E7937272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITestsLaunchTests.swift */,
+			);
+			path = AlhanoufAlghayhab_MessangerAPPUITests;
+			sourceTree = "<group>";
+		};
+		C31E7947272966040042FC30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C31E7916272945550042FC30 /* SceneDelegate.swift */,
+				C31E7914272945550042FC30 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C31E7948272966230042FC30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3FC99BD272EAA630030BBB3 /* DatabaseManager.swift */,
+				C3492B072730178A00CB5E45 /* StorageManage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C31E79492729663B0042FC30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C31E791A272945550042FC30 /* Main.storyboard */,
+				C31E791F272945560042FC30 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C31E794A2729664C0042FC30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C31E7918272945550042FC30 /* ViewController.swift */,
+				C3492B05272F287900CB5E45 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C31E794B272966BE0042FC30 /* LoginAndRegistration  */ = {
+			isa = PBXGroup;
+			children = (
+				C30A547027296BDF009E0076 /* LoginViewController.swift */,
+				C30A547227296BFA009E0076 /* RegisterViewController.swift */,
+				C30A547427296C51009E0076 /* NewConversationViewController.swift */,
+				C30A547627296C87009E0076 /* ProfileViewController.swift */,
+			);
+			path = "LoginAndRegistration ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31E7910272945550042FC30 /* AlhanoufAlghayhab_MessangerAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31E793B272945560042FC30 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_MessangerAPP" */;
+			buildPhases = (
+				C31E790D272945550042FC30 /* Sources */,
+				C31E790E272945550042FC30 /* Frameworks */,
+				C31E790F272945550042FC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlhanoufAlghayhab_MessangerAPP;
+			packageProductDependencies = (
+				C30A547927298ECB009E0076 /* FirebaseAnalytics */,
+				C30A547B27298ECB009E0076 /* FirebaseAuth */,
+				C30A547D27298ECB009E0076 /* FirebaseDatabase */,
+				C30A547F27298ECB009E0076 /* FirebaseFirestore */,
+				C30A548127298ECB009E0076 /* FirebaseStorage */,
+				C3CDA265272DC5C800204302 /* FacebookCore */,
+				C3CDA267272DC5C800204302 /* FacebookLogin */,
+				C3CDA269272DC5C800204302 /* FacebookShare */,
+				C3FC99C0272EBBAC0030BBB3 /* GoogleSignIn */,
+				C3492AF6272F137D00CB5E45 /* MessageKit */,
+				C3492AF9272F13F900CB5E45 /* JGProgressHUD */,
+				C3492AFC272F143200CB5E45 /* Realm */,
+				C3492AFE272F143200CB5E45 /* RealmSwift */,
+				C3492B01272F145F00CB5E45 /* SDWebImage */,
+				C3492B03272F145F00CB5E45 /* SDWebImageMapKit */,
+				C3492B0A2732678C00CB5E45 /* CryptoSwift */,
+			);
+			productName = AlhanoufAlghayhab_MessangerAPP;
+			productReference = C31E7911272945550042FC30 /* AlhanoufAlghayhab_MessangerAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C31E7926272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31E793E272945560042FC30 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_MessangerAPPTests" */;
+			buildPhases = (
+				C31E7923272945560042FC30 /* Sources */,
+				C31E7924272945560042FC30 /* Frameworks */,
+				C31E7925272945560042FC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31E7929272945560042FC30 /* PBXTargetDependency */,
+			);
+			name = AlhanoufAlghayhab_MessangerAPPTests;
+			productName = AlhanoufAlghayhab_MessangerAPPTests;
+			productReference = C31E7927272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C31E7930272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31E7941272945560042FC30 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_MessangerAPPUITests" */;
+			buildPhases = (
+				C31E792D272945560042FC30 /* Sources */,
+				C31E792E272945560042FC30 /* Frameworks */,
+				C31E792F272945560042FC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31E7933272945560042FC30 /* PBXTargetDependency */,
+			);
+			name = AlhanoufAlghayhab_MessangerAPPUITests;
+			productName = AlhanoufAlghayhab_MessangerAPPUITests;
+			productReference = C31E7931272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C31E7909272945550042FC30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C31E7910272945550042FC30 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C31E7926272945560042FC30 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C31E7910272945550042FC30;
+					};
+					C31E7930272945560042FC30 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C31E7910272945550042FC30;
+					};
+				};
+			};
+			buildConfigurationList = C31E790C272945550042FC30 /* Build configuration list for PBXProject "AlhanoufAlghayhab_MessangerAPP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C31E7908272945550042FC30;
+			packageReferences = (
+				C30A547827298ECB009E0076 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C3CDA264272DC5C700204302 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				C3FC99BF272EBBAC0030BBB3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				C3492AF5272F137D00CB5E45 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				C3492AF8272F13F800CB5E45 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				C3492AFB272F143200CB5E45 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				C3492B00272F145F00CB5E45 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				C3492B092732678B00CB5E45 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
+			productRefGroup = C31E7912272945550042FC30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31E7910272945550042FC30 /* AlhanoufAlghayhab_MessangerAPP */,
+				C31E7926272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests */,
+				C31E7930272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C31E790F272945550042FC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31E7921272945560042FC30 /* LaunchScreen.storyboard in Resources */,
+				C3307163273AFB2900D8CEAE /* client_675182844365-6rtc72mijaviqf8vbrs8nfkioglg0g6q.apps.googleusercontent.com .plist in Resources */,
+				C3391F762732EF630080B22D /* GoogleService-Info.plist in Resources */,
+				C31E791E272945560042FC30 /* Assets.xcassets in Resources */,
+				C31E791C272945550042FC30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31E7925272945560042FC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31E792F272945560042FC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C31E790D272945550042FC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FC99BE272EAA630030BBB3 /* DatabaseManager.swift in Sources */,
+				C30A547527296C51009E0076 /* NewConversationViewController.swift in Sources */,
+				C30A547127296BDF009E0076 /* LoginViewController.swift in Sources */,
+				C30A547327296BFA009E0076 /* RegisterViewController.swift in Sources */,
+				C3492B082730178A00CB5E45 /* StorageManage.swift in Sources */,
+				C31E7919272945550042FC30 /* ViewController.swift in Sources */,
+				C30A547727296C87009E0076 /* ProfileViewController.swift in Sources */,
+				C31E7915272945550042FC30 /* AppDelegate.swift in Sources */,
+				C3492B06272F287900CB5E45 /* ChatViewController.swift in Sources */,
+				C31E7917272945550042FC30 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31E7923272945560042FC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31E792C272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31E792D272945560042FC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31E7938272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITestsLaunchTests.swift in Sources */,
+				C31E7936272945560042FC30 /* AlhanoufAlghayhab_MessangerAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C31E7929272945560042FC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31E7910272945550042FC30 /* AlhanoufAlghayhab_MessangerAPP */;
+			targetProxy = C31E7928272945560042FC30 /* PBXContainerItemProxy */;
+		};
+		C31E7933272945560042FC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31E7910272945550042FC30 /* AlhanoufAlghayhab_MessangerAPP */;
+			targetProxy = C31E7932272945560042FC30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C31E791A272945550042FC30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31E791B272945550042FC30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C31E791F272945560042FC30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31E7920272945560042FC30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C31E7939272945560042FC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C31E793A272945560042FC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C31E793C272945560042FC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlhanoufAlghayhab_MessangerAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-MessangerAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C31E793D272945560042FC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlhanoufAlghayhab_MessangerAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-MessangerAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C31E793F272945560042FC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-MessangerAPPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlhanoufAlghayhab_MessangerAPP.app/AlhanoufAlghayhab_MessangerAPP";
+			};
+			name = Debug;
+		};
+		C31E7940272945560042FC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-MessangerAPPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlhanoufAlghayhab_MessangerAPP.app/AlhanoufAlghayhab_MessangerAPP";
+			};
+			name = Release;
+		};
+		C31E7942272945560042FC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-MessangerAPPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlhanoufAlghayhab_MessangerAPP;
+			};
+			name = Debug;
+		};
+		C31E7943272945560042FC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-MessangerAPPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlhanoufAlghayhab_MessangerAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C31E790C272945550042FC30 /* Build configuration list for PBXProject "AlhanoufAlghayhab_MessangerAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31E7939272945560042FC30 /* Debug */,
+				C31E793A272945560042FC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31E793B272945560042FC30 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_MessangerAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31E793C272945560042FC30 /* Debug */,
+				C31E793D272945560042FC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31E793E272945560042FC30 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_MessangerAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31E793F272945560042FC30 /* Debug */,
+				C31E7940272945560042FC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31E7941272945560042FC30 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_MessangerAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31E7942272945560042FC30 /* Debug */,
+				C31E7943272945560042FC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C30A547827298ECB009E0076 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		C3492AF5272F137D00CB5E45 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		C3492AF8272F13F800CB5E45 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		C3492AFB272F143200CB5E45 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C3492B00272F145F00CB5E45 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C3492B092732678B00CB5E45 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		C3CDA264272DC5C700204302 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		C3FC99BF272EBBAC0030BBB3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C30A547927298ECB009E0076 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C30A547827298ECB009E0076 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C30A547B27298ECB009E0076 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C30A547827298ECB009E0076 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C30A547D27298ECB009E0076 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C30A547827298ECB009E0076 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C30A547F27298ECB009E0076 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C30A547827298ECB009E0076 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C30A548127298ECB009E0076 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C30A547827298ECB009E0076 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C3492AF6272F137D00CB5E45 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3492AF5272F137D00CB5E45 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		C3492AF9272F13F900CB5E45 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3492AF8272F13F800CB5E45 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		C3492AFC272F143200CB5E45 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3492AFB272F143200CB5E45 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		C3492AFE272F143200CB5E45 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3492AFB272F143200CB5E45 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		C3492B01272F145F00CB5E45 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3492B00272F145F00CB5E45 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		C3492B03272F145F00CB5E45 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3492B00272F145F00CB5E45 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		C3492B0A2732678C00CB5E45 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3492B092732678B00CB5E45 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		C3CDA265272DC5C800204302 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3CDA264272DC5C700204302 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		C3CDA267272DC5C800204302 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3CDA264272DC5C700204302 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		C3CDA269272DC5C800204302 /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3CDA264272DC5C700204302 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+		C3FC99C0272EBBAC0030BBB3 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3FC99BF272EBBAC0030BBB3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C31E7909272945550042FC30 /* Project object */;
+}
