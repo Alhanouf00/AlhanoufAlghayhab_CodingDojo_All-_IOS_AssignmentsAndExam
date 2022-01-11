@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C36BCECE270B7A61007EFBB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCECD270B7A61007EFBB0 /* AppDelegate.swift */; };
+		C36BCED0270B7A61007EFBB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCECF270B7A61007EFBB0 /* SceneDelegate.swift */; };
+		C36BCED2270B7A61007EFBB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCED1270B7A61007EFBB0 /* ViewController.swift */; };
+		C36BCED5270B7A61007EFBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36BCED3270B7A61007EFBB0 /* Main.storyboard */; };
+		C36BCED7270B7A62007EFBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36BCED6270B7A62007EFBB0 /* Assets.xcassets */; };
+		C36BCEDA270B7A62007EFBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36BCED8270B7A62007EFBB0 /* LaunchScreen.storyboard */; };
+		C36BCEE5270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCEE4270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests.swift */; };
+		C36BCEEF270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCEEE270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests.swift */; };
+		C36BCEF1270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BCEF0270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C36BCEE1270B7A63007EFBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36BCEC2270B7A61007EFBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36BCEC9270B7A61007EFBB0;
+			remoteInfo = AlhanoufAlghayhab_AgingPeople;
+		};
+		C36BCEEB270B7A63007EFBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36BCEC2270B7A61007EFBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36BCEC9270B7A61007EFBB0;
+			remoteInfo = AlhanoufAlghayhab_AgingPeople;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C36BCECA270B7A61007EFBB0 /* AlhanoufAlghayhab_AgingPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlhanoufAlghayhab_AgingPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36BCECD270B7A61007EFBB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C36BCECF270B7A61007EFBB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C36BCED1270B7A61007EFBB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C36BCED4270B7A61007EFBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C36BCED6270B7A62007EFBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36BCED9270B7A62007EFBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C36BCEDB270B7A62007EFBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36BCEE0270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlhanoufAlghayhab_AgingPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36BCEE4270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_AgingPeopleTests.swift; sourceTree = "<group>"; };
+		C36BCEEA270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlhanoufAlghayhab_AgingPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36BCEEE270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_AgingPeopleUITests.swift; sourceTree = "<group>"; };
+		C36BCEF0270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlhanoufAlghayhab_AgingPeopleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36BCEC7270B7A61007EFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCEDD270B7A63007EFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCEE7270B7A63007EFBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C36BCEC1270B7A61007EFBB0 = {
+			isa = PBXGroup;
+			children = (
+				C36BCECC270B7A61007EFBB0 /* AlhanoufAlghayhab_AgingPeople */,
+				C36BCEE3270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests */,
+				C36BCEED270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests */,
+				C36BCECB270B7A61007EFBB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36BCECB270B7A61007EFBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36BCECA270B7A61007EFBB0 /* AlhanoufAlghayhab_AgingPeople.app */,
+				C36BCEE0270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests.xctest */,
+				C36BCEEA270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36BCECC270B7A61007EFBB0 /* AlhanoufAlghayhab_AgingPeople */ = {
+			isa = PBXGroup;
+			children = (
+				C36BCECD270B7A61007EFBB0 /* AppDelegate.swift */,
+				C36BCECF270B7A61007EFBB0 /* SceneDelegate.swift */,
+				C36BCED1270B7A61007EFBB0 /* ViewController.swift */,
+				C36BCED3270B7A61007EFBB0 /* Main.storyboard */,
+				C36BCED6270B7A62007EFBB0 /* Assets.xcassets */,
+				C36BCED8270B7A62007EFBB0 /* LaunchScreen.storyboard */,
+				C36BCEDB270B7A62007EFBB0 /* Info.plist */,
+			);
+			path = AlhanoufAlghayhab_AgingPeople;
+			sourceTree = "<group>";
+		};
+		C36BCEE3270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36BCEE4270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests.swift */,
+			);
+			path = AlhanoufAlghayhab_AgingPeopleTests;
+			sourceTree = "<group>";
+		};
+		C36BCEED270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C36BCEEE270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests.swift */,
+				C36BCEF0270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITestsLaunchTests.swift */,
+			);
+			path = AlhanoufAlghayhab_AgingPeopleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36BCEC9270B7A61007EFBB0 /* AlhanoufAlghayhab_AgingPeople */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36BCEF4270B7A63007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_AgingPeople" */;
+			buildPhases = (
+				C36BCEC6270B7A61007EFBB0 /* Sources */,
+				C36BCEC7270B7A61007EFBB0 /* Frameworks */,
+				C36BCEC8270B7A61007EFBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlhanoufAlghayhab_AgingPeople;
+			productName = AlhanoufAlghayhab_AgingPeople;
+			productReference = C36BCECA270B7A61007EFBB0 /* AlhanoufAlghayhab_AgingPeople.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36BCEDF270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36BCEF7270B7A63007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_AgingPeopleTests" */;
+			buildPhases = (
+				C36BCEDC270B7A63007EFBB0 /* Sources */,
+				C36BCEDD270B7A63007EFBB0 /* Frameworks */,
+				C36BCEDE270B7A63007EFBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36BCEE2270B7A63007EFBB0 /* PBXTargetDependency */,
+			);
+			name = AlhanoufAlghayhab_AgingPeopleTests;
+			productName = AlhanoufAlghayhab_AgingPeopleTests;
+			productReference = C36BCEE0270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C36BCEE9270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36BCEFA270B7A63007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_AgingPeopleUITests" */;
+			buildPhases = (
+				C36BCEE6270B7A63007EFBB0 /* Sources */,
+				C36BCEE7270B7A63007EFBB0 /* Frameworks */,
+				C36BCEE8270B7A63007EFBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36BCEEC270B7A63007EFBB0 /* PBXTargetDependency */,
+			);
+			name = AlhanoufAlghayhab_AgingPeopleUITests;
+			productName = AlhanoufAlghayhab_AgingPeopleUITests;
+			productReference = C36BCEEA270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36BCEC2270B7A61007EFBB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C36BCEC9270B7A61007EFBB0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C36BCEDF270B7A63007EFBB0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C36BCEC9270B7A61007EFBB0;
+					};
+					C36BCEE9270B7A63007EFBB0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C36BCEC9270B7A61007EFBB0;
+					};
+				};
+			};
+			buildConfigurationList = C36BCEC5270B7A61007EFBB0 /* Build configuration list for PBXProject "AlhanoufAlghayhab_AgingPeople" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36BCEC1270B7A61007EFBB0;
+			productRefGroup = C36BCECB270B7A61007EFBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36BCEC9270B7A61007EFBB0 /* AlhanoufAlghayhab_AgingPeople */,
+				C36BCEDF270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests */,
+				C36BCEE9270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36BCEC8270B7A61007EFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BCEDA270B7A62007EFBB0 /* LaunchScreen.storyboard in Resources */,
+				C36BCED7270B7A62007EFBB0 /* Assets.xcassets in Resources */,
+				C36BCED5270B7A61007EFBB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCEDE270B7A63007EFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCEE8270B7A63007EFBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36BCEC6270B7A61007EFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BCED2270B7A61007EFBB0 /* ViewController.swift in Sources */,
+				C36BCECE270B7A61007EFBB0 /* AppDelegate.swift in Sources */,
+				C36BCED0270B7A61007EFBB0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCEDC270B7A63007EFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BCEE5270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36BCEE6270B7A63007EFBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BCEF1270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITestsLaunchTests.swift in Sources */,
+				C36BCEEF270B7A63007EFBB0 /* AlhanoufAlghayhab_AgingPeopleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36BCEE2270B7A63007EFBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36BCEC9270B7A61007EFBB0 /* AlhanoufAlghayhab_AgingPeople */;
+			targetProxy = C36BCEE1270B7A63007EFBB0 /* PBXContainerItemProxy */;
+		};
+		C36BCEEC270B7A63007EFBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36BCEC9270B7A61007EFBB0 /* AlhanoufAlghayhab_AgingPeople */;
+			targetProxy = C36BCEEB270B7A63007EFBB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C36BCED3270B7A61007EFBB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36BCED4270B7A61007EFBB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C36BCED8270B7A62007EFBB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36BCED9270B7A62007EFBB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36BCEF2270B7A63007EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C36BCEF3270B7A63007EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36BCEF5270B7A63007EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlhanoufAlghayhab_AgingPeople/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-AgingPeople";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C36BCEF6270B7A63007EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlhanoufAlghayhab_AgingPeople/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-AgingPeople";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C36BCEF8270B7A63007EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-AgingPeopleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlhanoufAlghayhab_AgingPeople.app/AlhanoufAlghayhab_AgingPeople";
+			};
+			name = Debug;
+		};
+		C36BCEF9270B7A63007EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-AgingPeopleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlhanoufAlghayhab_AgingPeople.app/AlhanoufAlghayhab_AgingPeople";
+			};
+			name = Release;
+		};
+		C36BCEFB270B7A63007EFBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-AgingPeopleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlhanoufAlghayhab_AgingPeople;
+			};
+			name = Debug;
+		};
+		C36BCEFC270B7A63007EFBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CodingDojo.AlhanoufAlghayhab-AgingPeopleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlhanoufAlghayhab_AgingPeople;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36BCEC5270B7A61007EFBB0 /* Build configuration list for PBXProject "AlhanoufAlghayhab_AgingPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36BCEF2270B7A63007EFBB0 /* Debug */,
+				C36BCEF3270B7A63007EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36BCEF4270B7A63007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_AgingPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36BCEF5270B7A63007EFBB0 /* Debug */,
+				C36BCEF6270B7A63007EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36BCEF7270B7A63007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_AgingPeopleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36BCEF8270B7A63007EFBB0 /* Debug */,
+				C36BCEF9270B7A63007EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36BCEFA270B7A63007EFBB0 /* Build configuration list for PBXNativeTarget "AlhanoufAlghayhab_AgingPeopleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36BCEFB270B7A63007EFBB0 /* Debug */,
+				C36BCEFC270B7A63007EFBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36BCEC2270B7A61007EFBB0 /* Project object */;
+}
